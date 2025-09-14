@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  background-color: #f5f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Styling */
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Articles */
+article {
+  background: #f8f9fa;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #0077b6;
+  border-radius: 5px;
+}
+
+/* Aside */
+aside {
+  background: #e8f6ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Video */
+video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin: 0 8px;
+  padding: 8px 15px;
+  transition: background 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+  background-color: #00b4d8;
+  color: #fff !important;
+}
+
+/* Active Link Highlight */
+.navbar-nav .nav-link.active {
+  background-color: #0096c7;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(0, 148, 255, 0.7);
+}
