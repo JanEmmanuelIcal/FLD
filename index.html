@@ -3,33 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flood Control Corruption</title>
-
-  <!-- Bootstrap CSS -->
+  <title>Flood Control Corruption in the Philippines</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Custom CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100" tabindex="0">
 
-  <!-- Header -->
-  <header>
-    <h1>Flood Control Corruption</h1>
-    <p>Philippines - Where Did the Money Go?</p>
-  </header>
+  <!-- Hero Section -->
+  <section class="bg-primary text-white text-center py-5 mb-4 hero-section">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3"><i class="bi bi-exclamation-triangle-fill"></i> Flood Control Corruption</h1>
+      <p class="lead">Philippines - Where Did the Money Go?</p>
+      <p>Billions lost, thousands affected. Discover the facts behind the flood control corruption crisis.</p>
+      <a href="#overview" class="btn btn-light btn-lg mt-3">Learn More</a>
+    </div>
+  </section>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#top">FloodWatch</a>
+      <a class="navbar-brand fw-bold" href="#top"><i class="bi bi-droplet-half"></i> FloodWatch</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#statistics">Statistics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#causes">Causes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#consequences">Consequences</a></li>
           <li class="nav-item"><a class="nav-link" href="#ghost">Ghost Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -37,54 +43,259 @@
   </nav>
 
   <!-- Overview Section -->
-  <section id="overview" class="container">
-    <h2 class="text-center text-primary">Overview</h2>
-    <article>
-      <h3>Missing Funds</h3>
-      <p>Billions of pesos meant for flood control projects disappeared, leaving communities vulnerable to floods.</p>
-    </article>
-    <article>
-      <h3>Impact</h3>
-      <p>Despite the budget allocations, many areas continue to suffer from floods every year.</p>
-    </article>
-    
-    <!-- Local Video -->
-    <h4 class="mt-4">Watch: Flood Control Project Investigation</h4>
-    <video controls autoplay muted loop>
-      <source src="c:\Users\icalj\OneDrive\Desktop\Teaching\timer.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+  <section id="overview" class="container py-5">
+    <h2 class="text-center text-primary mb-4"><i class="bi bi-info-circle"></i> Overview</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-cash-stack"></i> What Happened?</h3>
+            <p class="card-text">
+              The Philippine government has allocated billions of pesos for flood control projects over the past decade. However, investigations reveal that a significant portion of these funds have been lost to corruption, mismanagement, and ghost projects.
+            </p>
+            <ul>
+              <li>₱15 Billion missing from flood control funds (COA, 2023)</li>
+              <li>Over 300 projects unaccounted for nationwide</li>
+              <li>Funds diverted to non-existent or incomplete projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-cloud-rain-heavy"></i> Why It Matters</h3>
+            <p class="card-text">
+              Flooding remains a major threat in the Philippines, affecting millions every year. Corruption in flood control projects leaves communities vulnerable, destroys livelihoods, and costs the economy billions.
+            </p>
+            <ul>
+              <li>Thousands displaced annually</li>
+              <li>Major cities and provinces affected</li>
+              <li>Economic losses estimated at ₱5 Billion/year</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 text-center">
+      <h4 class="mb-3"><i class="bi bi-play-circle"></i> Watch: Flood Control Project Investigation</h4>
+      <div class="ratio ratio-16x9 rounded shadow" style="max-width: 640px; margin: 0 auto;">
+        <iframe src="https://www.youtube.com/embed/2w4QGQGJkzE" title="Flood Control Corruption in the Philippines" allowfullscreen></iframe>
+      </div>
+      <p class="mt-2 text-muted">A closer look at how funds were misused and the consequences for local communities.</p>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section id="statistics" class="container py-5">
+    <h2 class="text-center text-success mb-4"><i class="bi bi-bar-chart-line"></i> Key Statistics</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title"><i class="bi bi-currency-exchange"></i> ₱15 Billion</h4>
+            <p class="card-text">Missing from flood control funds (2023)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title"><i class="bi bi-building"></i> 300+</h4>
+            <p class="card-text">Unaccounted or incomplete projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title"><i class="bi bi-people"></i> 1.2 Million</h4>
+            <p class="card-text">Filipinos affected by floods every year</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <ul class="list-group list-group-flush shadow">
+          <li class="list-group-item"><i class="bi bi-bar-chart"></i> Economic losses: ₱5 Billion/year</li>
+          <li class="list-group-item"><i class="bi bi-exclamation-diamond"></i> 10 major cities affected annually</li>
+          <li class="list-group-item"><i class="bi bi-geo-alt"></i> Most affected: Metro Manila, Pampanga, Mindanao</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group list-group-flush shadow">
+          <li class="list-group-item"><i class="bi bi-calendar-event"></i> 2020-2024: 5 major flood disasters</li>
+          <li class="list-group-item"><i class="bi bi-person-x"></i> 20,000+ families displaced in 2023</li>
+          <li class="list-group-item"><i class="bi bi-clipboard-data"></i> 60% of flood control budget unaccounted for</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Causes Section -->
+  <section id="causes" class="container py-5">
+    <h2 class="text-center text-warning mb-4"><i class="bi bi-bug"></i> Causes of Corruption</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-file-earmark-text"></i> Lack of Transparency</h5>
+            <p class="card-text">Project details and budgets are often hidden from the public, making it easier for funds to be misused.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-person-badge"></i> Political Patronage</h5>
+            <p class="card-text">Projects are awarded to favored contractors, sometimes with little oversight or accountability.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-x-circle"></i> Weak Enforcement</h5>
+            <p class="card-text">Lack of strict penalties and poor monitoring allow corrupt practices to continue unchecked.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consequences Section -->
+  <section id="consequences" class="container py-5">
+    <h2 class="text-center text-danger mb-4"><i class="bi bi-lightning-charge"></i> Consequences</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card border-danger shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-house-door"></i> Displaced Families</h5>
+            <p class="card-text">Thousands lose their homes every year due to flooding, with little government support for relocation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-danger shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-graph-down"></i> Economic Losses</h5>
+            <p class="card-text">Floods disrupt businesses, destroy crops, and damage infrastructure, costing billions annually.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="card border-danger shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-emoji-frown"></i> Public Trust Erodes</h5>
+            <p class="card-text">Corruption undermines confidence in government institutions and slows progress on disaster resilience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Ghost Projects Section -->
-  <section id="ghost" class="container">
-    <h2 class="text-center text-danger">Ghost Projects</h2>
-    <article>
-      <h3>What Are Ghost Projects?</h3>
-      <p>Ghost projects are those listed in the budget but never constructed in reality.</p>
-    </article>
-    <article>
-      <h3>Examples</h3>
-      <p>Several flood control projects in different provinces have no physical presence despite billions allocated.</p>
-    </article>
+  <section id="ghost" class="container py-5">
+    <h2 class="text-center text-danger mb-4"><i class="bi bi-ghost"></i> Ghost Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card border-danger shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-question-circle"></i> What Are Ghost Projects?</h3>
+            <p class="card-text">Ghost projects are those listed in the budget but never constructed in reality. These projects exist only on paper, with funds released but no physical evidence of work done.</p>
+            <ul>
+              <li>Flood control dikes in Pampanga: No construction, funds released</li>
+              <li>Drainage systems in Metro Manila: Budget spent, no results</li>
+              <li>River embankments in Mindanao: Projects listed, sites empty</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-danger shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-search"></i> How Are They Exposed?</h3>
+            <p class="card-text">Investigative journalism, whistleblowers, and audits by the Commission on Audit (COA) have revealed hundreds of ghost projects nationwide.</p>
+            <ul>
+              <li>COA reports (2023, 2024)</li>
+              <li>Media investigations (Rappler, Philippine Daily Inquirer)</li>
+              <li>Community testimonies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Aside Section -->
-  <aside class="container my-4">
-    <h3 class="text-center text-primary">Quick Facts</h3>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">₱15 Billion missing from flood control funds</li>
-      <li class="list-group-item">Hundreds of incomplete projects nationwide</li>
-      <li class="list-group-item">Communities continue to suffer annual flooding</li>
-  </aside>
+  <!-- Solutions Section -->
+  <section id="solutions" class="container py-5">
+    <h2 class="text-center text-info mb-4"><i class="bi bi-lightbulb"></i> Solutions & Recommendations</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-eye"></i> Transparency</h5>
+            <p class="card-text">Publish all project details, budgets, and progress online for public scrutiny.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-shield-check"></i> Stronger Oversight</h5>
+            <p class="card-text">Empower COA and independent bodies to audit and monitor projects regularly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-megaphone"></i> Community Involvement</h5>
+            <p class="card-text">Encourage citizens to report irregularities and participate in local monitoring.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-flag"></i> Policy Reform</h5>
+            <p class="card-text">Implement stricter penalties for corruption and streamline project approval processes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- References Section -->
+  <section id="references" class="container py-5">
+    <h2 class="text-center text-secondary mb-4"><i class="bi bi-journal-text"></i> References</h2>
+    <ul class="list-group list-group-flush shadow">
+      <li class="list-group-item"><a href="https://www.coa.gov.ph/" target="_blank">Commission on Audit (COA) Reports</a></li>
+      <li class="list-group-item"><a href="https://www.rappler.com/newsbreak/in-depth/ghost-projects-flood-control-philippines/" target="_blank">Rappler: Ghost Projects in Flood Control</a></li>
+      <li class="list-group-item"><a href="https://www.inquirer.net/" target="_blank">Philippine Daily Inquirer: Flood Control Investigations</a></li>
+      <li class="list-group-item"><a href="https://www.worldbank.org/en/country/philippines/publication/flood-risk-management" target="_blank">World Bank: Flood Risk Management in the Philippines</a></li>
+    </ul>
+  </section>
 
   <!-- Footer -->
-  <footer id="contact">
-    <p>Contact us: <a href="mailto:info@floodwatch.ph" class="text-white">info@floodwatch.ph</a> | Phone: +63 912 345 6789</p>
-    <p>© 2024 Flood Control Investigation</p>
+  <footer id="contact" class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <h5><i class="bi bi-envelope"></i> Contact Us</h5>
+      <p>Email: <a href="mailto:info@floodwatch.ph" class="text-info">info@floodwatch.ph</a> | Phone: +63 912 345 6789</p>
+      <div class="mb-2">
+        <a href="https://facebook.com/floodwatchph" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/floodwatchph" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+        <a href="https://instagram.com/floodwatchph" class="text-white"><i class="bi bi-instagram"></i></a>
+      </div>
+      <p class="mb-0">© 2024 Flood Control Investigation. All rights reserved.</p>
+    </div>
   </footer>
 
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
